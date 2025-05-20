@@ -1,11 +1,17 @@
 import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import ImageSlider from './components/Slider';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <h1 className="bg-red-500 text-3xl text-blue-600">Hello World</h1>
-    </div>
+    <>
+      <Header />
+      <br />
+      <ImageSlider />
+      <Footer />
+    </>
   );
-};
+}
 
 export default App;
